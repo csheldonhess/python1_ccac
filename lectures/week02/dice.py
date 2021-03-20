@@ -20,6 +20,7 @@ def d20():
 	return random.randint(1, 20)
 
 def main():
+	random.seed(42)
 	print("4-sided die:", d4())
 	print("6-sided die:", d6())
 	print("8-sided die:", d8())
